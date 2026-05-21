@@ -2,7 +2,6 @@
 
 Laravel package for [WasenderAPI](https://wasenderapi.com/api-docs), built to help you manage WhatsApp sessions, send messages, handle media, work with contacts, groups, channels, and receive webhooks from Laravel.
 
-> العربية أولًا، ثم English below.
 
 ---
 
