@@ -32,6 +32,7 @@ WasenderApi::messages()->text('+1234567890', 'مرحبا من Laravel');
 
 ```bash
 composer config repositories.wasenderapi-laravel vcs https://github.com/AshrafCodes/wasenderapi-laravel.git
+
 composer require ashraf/wasenderapi-laravel:^1.1.0
 او
 composer require ashraf/wasenderapi-laravel:dev-main
@@ -326,16 +327,37 @@ WASENDERAPI_INCLUDE_RESPONSE_HEADERS=true
 
 ### مشاكل شائعة
 
-إذا ظهر خطأ minimum stability، استخدم نسخة مستقرة عبر tag:
+إذا أردت إزالة الحزمة من مشروع Laravel، لا تكتب رقم الإصدار مع أمر الإزالة:
 
 ```bash
-composer require ashraf/wasenderapi-laravel:^1.1
+composer remove ashraf/wasenderapi-laravel
 ```
 
-أو استخدم الفرع مباشرة:
+إذا ظهر خطأ أن Composer وجد `v1.0.0` فقط ولم يجد `^1.1`، فهذا يعني أن مستودع GitHub لا يحتوي tag باسم `v1.1.0` أو أحدث. أنشئ tag من مستودع الحزمة ثم ارفعه:
 
 ```bash
-composer require ashraf/wasenderapi-laravel:dev-main
+git tag v1.1.0
+git push origin v1.1.0
+```
+
+بعدها ثبّت النسخة المستقرة:
+
+```bash
+composer require ashraf/wasenderapi-laravel:^1.1 -W
+```
+
+إذا أردت استخدام آخر كود من الفرع `main` بدون tag، ثبّت نسخة التطوير:
+
+```bash
+composer require ashraf/wasenderapi-laravel:dev-main -W
+```
+
+إذا كان مشروعك يستخدم Laravel/Illuminate أحدث من المدعوم في `v1.0.0`، لا تثبت `^1.0`؛ استخدم `dev-main` أو أنشئ tag جديد مثل `v1.1.0`.
+
+إذا كان Composer يستخدم cache قديمًا:
+
+```bash
+composer clear-cache
 ```
 
 إذا لم يجد Composer الحزمة، تأكد من تعريف repository:
@@ -683,16 +705,37 @@ WASENDERAPI_INCLUDE_RESPONSE_HEADERS=true
 
 ### Troubleshooting
 
-If Composer reports a minimum stability error, install a stable tag:
+To remove the package from a Laravel project, do not include a version constraint:
 
 ```bash
-composer require ashraf/wasenderapi-laravel:^1.1
+composer remove ashraf/wasenderapi-laravel
 ```
 
-Or require the main branch:
+If Composer says it found only `v1.0.0` and cannot install `^1.1`, your GitHub repository does not have a `v1.1.0` or newer tag yet. Create and push the tag from the package repository:
 
 ```bash
-composer require ashraf/wasenderapi-laravel:dev-main
+git tag v1.1.0
+git push origin v1.1.0
+```
+
+Then install the stable version:
+
+```bash
+composer require ashraf/wasenderapi-laravel:^1.1 -W
+```
+
+If you want to use the latest code from the `main` branch without a tag, install the development branch:
+
+```bash
+composer require ashraf/wasenderapi-laravel:dev-main -W
+```
+
+If your project uses a Laravel/Illuminate version newer than what `v1.0.0` supports, do not install `^1.0`; use `dev-main` or create a newer tag such as `v1.1.0`.
+
+If Composer is using stale package metadata:
+
+```bash
+composer clear-cache
 ```
 
 If Composer cannot find the package, make sure the GitHub repository is registered:
