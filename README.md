@@ -32,13 +32,12 @@ WasenderApi::messages()->text('+1234567890', 'مرحبا من Laravel');
 
 ```bash
 composer config repositories.wasenderapi-laravel vcs https://github.com/AshrafCodes/wasenderapi-laravel.git
-composer require ashraf/wasenderapi-laravel:^1.1
+composer require ashraf/wasenderapi-laravel:^1.1.0
+او
+composer require ashraf/wasenderapi-laravel:dev-main
 ```
 
-إذا لم يكن لديك tag باسم `v1.1.0` أو أحدث في GitHub، استخدم الفرع مباشرة:
-
-```bash
-composer require ashraf/wasenderapi-laravel:dev-main
+er require ashraf/wasenderapi-laravel:dev-main
 ```
 
 
@@ -388,14 +387,12 @@ The package is not published on Packagist. Register the repository in your Larav
 
 ```bash
 composer config repositories.wasenderapi-laravel vcs https://github.com/AshrafCodes/wasenderapi-laravel.git
-composer require ashraf/wasenderapi-laravel:^1.1
-```
-
-If you do not have a `v1.1.0` or newer Git tag yet, require the main branch temporarily:
-
-```bash
+composer require ashraf/wasenderapi-laravel:^1.1.0
+or
 composer require ashraf/wasenderapi-laravel:dev-main
 ```
+
+
 
 
 
