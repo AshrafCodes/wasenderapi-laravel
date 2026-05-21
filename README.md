@@ -11,10 +11,10 @@
 
 ## التثبيت داخل مشروع Laravel
 
-إذا أردت استخدامها من هذا المجلد المحلي مباشرة داخل أي مشروع Laravel:
+طريقة التثبيت:
 
 ```bash
-composer config repositories.wasenderapi-laravel '{"type":"path","url":"/Users/ashraf/Documents/plugin demo","options":{"symlink":true}}'
+
 composer require ashraf/wasenderapi-laravel:*
 ```
 
