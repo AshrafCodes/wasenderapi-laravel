@@ -37,11 +37,6 @@ composer require ashraf/wasenderapi-laravel:^1.1.0
 composer require ashraf/wasenderapi-laravel:dev-main
 ```
 
-er require ashraf/wasenderapi-laravel:dev-main
-```
-
-
-
 بعد التثبيت، انشر ملف الإعدادات:
 
 ```bash
@@ -387,6 +382,7 @@ The package is not published on Packagist. Register the repository in your Larav
 
 ```bash
 composer config repositories.wasenderapi-laravel vcs https://github.com/AshrafCodes/wasenderapi-laravel.git
+
 composer require ashraf/wasenderapi-laravel:^1.1.0
 or
 composer require ashraf/wasenderapi-laravel:dev-main
