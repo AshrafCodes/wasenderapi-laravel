@@ -1,8 +1,8 @@
 <?php
 
-namespace Ashraf\WasenderApi;
+namespace AshrafCodes\WasenderApi;
 
-use Ashraf\WasenderApi\Exceptions\WasenderApiException;
+use AshrafCodes\WasenderApi\Exceptions\WasenderApiException;
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Http;

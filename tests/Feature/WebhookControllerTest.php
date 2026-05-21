@@ -1,9 +1,9 @@
 <?php
 
-namespace Ashraf\WasenderApi\Tests\Feature;
+namespace AshrafCodes\WasenderApi\Tests\Feature;
 
-use Ashraf\WasenderApi\Events\WasenderWebhookReceived;
-use Ashraf\WasenderApi\Tests\TestCase;
+use AshrafCodes\WasenderApi\Events\WasenderWebhookReceived;
+use AshrafCodes\WasenderApi\Tests\TestCase;
 use Illuminate\Support\Facades\Event;
 
 class WebhookControllerTest extends TestCase

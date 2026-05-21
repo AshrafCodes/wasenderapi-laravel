@@ -1,8 +1,8 @@
 <?php
 
-namespace Ashraf\WasenderApi\Resources;
+namespace AshrafCodes\WasenderApi\Resources;
 
-use Ashraf\WasenderApi\Client;
+use AshrafCodes\WasenderApi\Client;
 
 abstract class AbstractResource
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ashraf\WasenderApi;
+namespace AshrafCodes\WasenderApi;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;

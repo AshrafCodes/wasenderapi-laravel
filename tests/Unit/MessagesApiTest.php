@@ -1,9 +1,9 @@
 <?php
 
-namespace Ashraf\WasenderApi\Tests\Unit;
+namespace AshrafCodes\WasenderApi\Tests\Unit;
 
-use Ashraf\WasenderApi\Facades\WasenderApi;
-use Ashraf\WasenderApi\Tests\TestCase;
+use AshrafCodes\WasenderApi\Facades\WasenderApi;
+use AshrafCodes\WasenderApi\Tests\TestCase;
 use Illuminate\Support\Facades\Http;
 
 class MessagesApiTest extends TestCase

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ashraf\WasenderApi\Facades;
+namespace AshrafCodes\WasenderApi\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -8,6 +8,6 @@ class WasenderApi extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return \Ashraf\WasenderApi\WasenderApi::class;
+        return \AshrafCodes\WasenderApi\WasenderApi::class;
     }
 }

@@ -1,12 +1,12 @@
 <?php
 
-namespace Ashraf\WasenderApi;
+namespace AshrafCodes\WasenderApi;
 
-use Ashraf\WasenderApi\Resources\ChannelsApi;
-use Ashraf\WasenderApi\Resources\ContactsApi;
-use Ashraf\WasenderApi\Resources\GroupsApi;
-use Ashraf\WasenderApi\Resources\MessagesApi;
-use Ashraf\WasenderApi\Resources\SessionsApi;
+use AshrafCodes\WasenderApi\Resources\ChannelsApi;
+use AshrafCodes\WasenderApi\Resources\ContactsApi;
+use AshrafCodes\WasenderApi\Resources\GroupsApi;
+use AshrafCodes\WasenderApi\Resources\MessagesApi;
+use AshrafCodes\WasenderApi\Resources\SessionsApi;
 
 class WasenderApi
 {

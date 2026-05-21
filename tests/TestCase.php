@@ -1,8 +1,8 @@
 <?php
 
-namespace Ashraf\WasenderApi\Tests;
+namespace AshrafCodes\WasenderApi\Tests;
 
-use Ashraf\WasenderApi\WasenderApiServiceProvider;
+use AshrafCodes\WasenderApi\WasenderApiServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra

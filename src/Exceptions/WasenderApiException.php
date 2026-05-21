@@ -1,6 +1,6 @@
 <?php
 
-namespace Ashraf\WasenderApi\Exceptions;
+namespace AshrafCodes\WasenderApi\Exceptions;
 
 use Exception;
 use Illuminate\Http\Client\Response;

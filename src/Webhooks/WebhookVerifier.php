@@ -1,6 +1,6 @@
 <?php
 
-namespace Ashraf\WasenderApi\Webhooks;
+namespace AshrafCodes\WasenderApi\Webhooks;
 
 use Illuminate\Http\Request;
 

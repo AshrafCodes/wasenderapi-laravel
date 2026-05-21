@@ -1,6 +1,6 @@
 <?php
 
-namespace Ashraf\WasenderApi\Resources;
+namespace AshrafCodes\WasenderApi\Resources;
 
 class MessagesApi extends AbstractResource
 {

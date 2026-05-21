@@ -1,9 +1,9 @@
 <?php
 
-namespace Ashraf\WasenderApi\Http\Controllers;
+namespace AshrafCodes\WasenderApi\Http\Controllers;
 
-use Ashraf\WasenderApi\Events\WasenderWebhookReceived;
-use Ashraf\WasenderApi\Webhooks\WebhookVerifier;
+use AshrafCodes\WasenderApi\Events\WasenderWebhookReceived;
+use AshrafCodes\WasenderApi\Webhooks\WebhookVerifier;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

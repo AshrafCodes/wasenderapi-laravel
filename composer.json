@@ -1,16 +1,16 @@
 {
-    "name": "ashraf/wasenderapi-laravel",
+    "name": "ashrafcodes/wasenderapi-laravel",
     "description": "Laravel package for WasenderAPI WhatsApp sessions, messages, contacts, groups, channels, uploads, and webhooks.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ashraf\\WasenderApi\\": "src/"
+            "AshrafCodes\\WasenderApi\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ashraf\\WasenderApi\\Tests\\": "tests/"
+            "AshrafCodes\\WasenderApi\\Tests\\": "tests/"
         }
     },
     "require": {
@@ -27,10 +27,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ashraf\\WasenderApi\\WasenderApiServiceProvider"
+                "AshrafCodes\\WasenderApi\\WasenderApiServiceProvider"
             ],
             "aliases": {
-                "WasenderApi": "Ashraf\\WasenderApi\\Facades\\WasenderApi"
+                "WasenderApi": "AshrafCodes\\WasenderApi\\Facades\\WasenderApi"
             }
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ashraf\WasenderApi\Events;
+namespace AshrafCodes\WasenderApi\Events;
 
 class WasenderWebhookReceived
 {
