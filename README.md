@@ -28,10 +28,10 @@ WasenderApi::messages()->text('+1234567890', 'مرحبا من Laravel');
 
 ### التثبيت من GitHub
 
-الحزمة غير منشورة على Packagist، عرّف المستودع داخل مشروع Laravel:
+ثبت الحزمة:
 
 ```bash
-composer config repositories.wasenderapi-laravel vcs https://github.com/AshrafCodes/wasenderapi-laravel.git
+
 composer require ashrafcodes/wasenderapi-laravel:^1.1.0
 ```
 
@@ -403,10 +403,10 @@ WasenderApi::messages()->text('+1234567890', 'Hello from Laravel');
 
 ### Installation From GitHub
 
-The package is not published on Packagist. Register the repository in your Laravel project first:
+Install Packagist:
 
 ```bash
-composer config repositories.wasenderapi-laravel vcs https://github.com/AshrafCodes/wasenderapi-laravel.git
+
 composer require ashrafcodes/wasenderapi-laravel:^1.1.0
 ```
 
