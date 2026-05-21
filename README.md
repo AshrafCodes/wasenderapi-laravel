@@ -29,7 +29,7 @@ WasenderApi::messages()->text('+1234567890', 'مرحبا من Laravel');
 
 ### التثبيت من GitHub
 
-إذا لم تكن الحزمة منشورة على Packagist، عرّف مستودع GitHub داخل مشروع Laravel:
+الحزمة غير منشورة على Packagist، عرّف المستودع داخل مشروع Laravel:
 
 ```bash
 composer config repositories.wasenderapi-laravel vcs https://github.com/AshrafCodes/wasenderapi-laravel.git
@@ -385,7 +385,7 @@ WasenderApi::messages()->text('+1234567890', 'Hello from Laravel');
 
 ### Installation From GitHub
 
-If the package is not published on Packagist, add the GitHub repository to your Laravel project first:
+The package is not published on Packagist. Register the repository in your Laravel project first:
 
 ```bash
 composer config repositories.wasenderapi-laravel vcs https://github.com/AshrafCodes/wasenderapi-laravel.git
@@ -398,12 +398,7 @@ If you do not have a `v1.1.0` or newer Git tag yet, require the main branch temp
 composer require ashraf/wasenderapi-laravel:dev-main
 ```
 
-For stable installation, create and push a Git tag in the package repository:
 
-```bash
-git tag v1.1.0
-git push origin v1.1.0
-```
 
 Publish the configuration file:
 
